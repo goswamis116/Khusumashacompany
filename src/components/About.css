@@ -1,0 +1,50 @@
+.section-title {
+    margin-bottom: 30px;
+  }
+  
+  .about-content {
+    margin-bottom: 30px;
+  }
+  
+  .team-heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .team-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .team-card a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .team-card {
+    width: 300px;
+    text-align: center;
+    margin: 0 15px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 6px 8px rgba(0, 0.2, 0.1, 0.3);;
+  }
+  
+  .team-member-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .team-member-name {
+    margin-bottom: 10px;
+  }
+  
+  .team-member-position {
+    margin-bottom: 0;
+  }
+  

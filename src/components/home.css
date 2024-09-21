@@ -1,0 +1,67 @@
+/* Home.css */
+
+/* Set the height of the carousel */
+#home .container {
+  height: 100vh; /* Make the carousel container full-screen */
+  padding: 0; /* Remove any padding */
+}
+
+/* Make the carousel images full-screen */
+#home .carousel-item img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  opacity: 0.8;}
+
+/* Customize the carousel caption */
+#home .carousel-caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0.8; /* Add a background color to the caption area */
+}
+
+/* Add background to the carousel caption texts */
+#home .carousel-caption h3,
+#home .carousel-caption p {
+  background-color: #080202;
+   /* Add a background color with transparency to the text area */
+  border-radius: 10px; /* Add a border radius to shape the background */
+  padding: 10px; /* Add padding for spacing */
+  margin: 0; /* Remove any margin */
+}
+
+/* Adjust the font sizes */
+#home .carousel-caption h3 {
+  font-size: 24px; /* Adjust the font size as needed */
+}
+
+#home .carousel-caption p {
+  font-size: 18px; /* Adjust the font size as needed */
+}
+
+/* Set the overall background color of the home section */
+body {
+  background-color: #222; /* Set the dark color as the background */
+}
+
+/* Responsive styles for mobile devices */
+@media (max-width: 576px) {
+  /* Set the height of the carousel for mobile devices */
+  #home .container {
+    height: 60vh;
+  }
+  
+  /* Adjust the font sizes for mobile devices */
+  #home .carousel-caption h3 {
+    font-size: 20px;
+  }
+  
+  #home .carousel-caption p {
+    font-size: 16px;
+  }
+}
